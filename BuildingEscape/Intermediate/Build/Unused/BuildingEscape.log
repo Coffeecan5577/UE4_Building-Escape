@@ -1,5 +1,24 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Compiling game modules for hot reload
-  Target is up to date
+﻿  Cleaning BuildingEscapeEditor Binaries...
+  Using 'git status' to determine working set for adaptive non-unity build.
+  Using 'git status' to determine working set for adaptive non-unity build.
+  Creating makefile for BuildingEscapeEditor (no existing makefile)
+  Performing full C++ include scan (no include cache file)
+  Parsing headers for BuildingEscapeEditor
+    Running UnrealHeaderTool "D:\2018_Class_Content\Unreal_And_C++\Section_03\UE4_Building-Escape\BuildingEscape\BuildingEscape.uproject" "D:\2018_Class_Content\Unreal_And_C++\Section_03\UE4_Building-Escape\BuildingEscape\Intermediate\Build\Win64\BuildingEscapeEditor\Development\BuildingEscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for BuildingEscapeEditor in 8.8195169 seconds
+  Performing 11 actions (4 in parallel)
+  [2/11] Resource ModuleVersionResource.rc.inl
+  [3/11] Resource PCLaunch.rc
+  SharedPCH.Engine.cpp
+  PositionReport.cpp
+  BuildingEscape.cpp
+  BuildingEscapeGameModeBase.cpp
+  BuildingEscape.init.gen.cpp
+  BuildingEscapeGameModeBase.gen.cpp
+  PositionReport.gen.cpp
+  [10/11] Link UE4Editor-BuildingEscape.dll
+  [11/11] Link UE4Editor-BuildingEscape.lib
+     Creating library D:\2018_Class_Content\Unreal_And_C++\Section_03\UE4_Building-Escape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape.lib and object D:\2018_Class_Content\Unreal_And_C++\Section_03\UE4_Building-Escape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape.exp
+     Creating library D:\2018_Class_Content\Unreal_And_C++\Section_03\UE4_Building-Escape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape.suppressed.lib and object D:\2018_Class_Content\Unreal_And_C++\Section_03\UE4_Building-Escape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape.suppressed.exp
   Deploying BuildingEscapeEditor Win64 Development...
-  Total build time: 1.75 seconds (NoActionsToExecute executor: 0.00 seconds)
+  Total build time: 41.80 seconds (Local executor: 26.28 seconds)
