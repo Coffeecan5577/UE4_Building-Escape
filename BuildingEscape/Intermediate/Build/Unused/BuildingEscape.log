@@ -1,11 +1,10 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Creating makefile for hot reloading BuildingEscapeEditor (modules to compile have changed)
   Compiling game modules for hot reload
   Performing 3 actions (4 in parallel)
-  PositionReport.cpp
-  [2/3] Link UE4Editor-BuildingEscape-430.dll
-  [3/3] Link UE4Editor-BuildingEscape-430.lib
-     Creating library D:\2018_Class_Content\Unreal_And_C++\Section_03\UE4_Building-Escape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-430.suppressed.lib and object D:\2018_Class_Content\Unreal_And_C++\Section_03\UE4_Building-Escape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-430.suppressed.exp
-     Creating library D:\2018_Class_Content\Unreal_And_C++\Section_03\UE4_Building-Escape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-430.lib and object D:\2018_Class_Content\Unreal_And_C++\Section_03\UE4_Building-Escape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-430.exp
+  OpenDoor.cpp
+  [2/3] Link UE4Editor-BuildingEscape-7617.dll
+  [3/3] Link UE4Editor-BuildingEscape-7617.lib
+     Creating library D:\2018_Class_Content\Unreal_And_C++\Section_03\UE4_Building-Escape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-7617.suppressed.lib and object D:\2018_Class_Content\Unreal_And_C++\Section_03\UE4_Building-Escape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-7617.suppressed.exp
+     Creating library D:\2018_Class_Content\Unreal_And_C++\Section_03\UE4_Building-Escape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-7617.lib and object D:\2018_Class_Content\Unreal_And_C++\Section_03\UE4_Building-Escape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-7617.exp
   Deploying BuildingEscapeEditor Win64 Development...
-  Total build time: 8.14 seconds (Local executor: 1.42 seconds)
+  Total build time: 3.45 seconds (Local executor: 1.63 seconds)
