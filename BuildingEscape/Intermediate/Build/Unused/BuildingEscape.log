@@ -1,14 +1,16 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
+  Creating makefile for hot reloading BuildingEscapeEditor (ini files are newer than UBTMakefile)
   Compiling game modules for hot reload
   Parsing headers for BuildingEscapeEditor
     Running UnrealHeaderTool "D:\2018_Class_Content\Unreal_And_C++\Section_03\UE4_Building-Escape\BuildingEscape\BuildingEscape.uproject" "D:\2018_Class_Content\Unreal_And_C++\Section_03\UE4_Building-Escape\BuildingEscape\Intermediate\Build\Win64\BuildingEscapeEditor\Development\BuildingEscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for BuildingEscapeEditor in 9.1525286 seconds
-  Performing 4 actions (4 in parallel)
-  OpenDoor.gen.cpp
+  Reflection code generated for BuildingEscapeEditor in 10.2294471 seconds
+  Performing 5 actions (4 in parallel)
+  BuildingEscape.init.gen.cpp
   OpenDoor.cpp
-  [3/4] Link UE4Editor-BuildingEscape-3134.dll
-  [4/4] Link UE4Editor-BuildingEscape-3134.lib
-     Creating library D:\2018_Class_Content\Unreal_And_C++\Section_03\UE4_Building-Escape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-3134.lib and object D:\2018_Class_Content\Unreal_And_C++\Section_03\UE4_Building-Escape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-3134.exp
-     Creating library D:\2018_Class_Content\Unreal_And_C++\Section_03\UE4_Building-Escape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-3134.suppressed.lib and object D:\2018_Class_Content\Unreal_And_C++\Section_03\UE4_Building-Escape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-3134.suppressed.exp
+  OpenDoor.gen.cpp
+  [4/5] Link UE4Editor-BuildingEscape-2814.dll
+  [5/5] Link UE4Editor-BuildingEscape-2814.lib
+     Creating library D:\2018_Class_Content\Unreal_And_C++\Section_03\UE4_Building-Escape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-2814.lib and object D:\2018_Class_Content\Unreal_And_C++\Section_03\UE4_Building-Escape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-2814.exp
+     Creating library D:\2018_Class_Content\Unreal_And_C++\Section_03\UE4_Building-Escape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-2814.suppressed.lib and object D:\2018_Class_Content\Unreal_And_C++\Section_03\UE4_Building-Escape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-2814.suppressed.exp
   Deploying BuildingEscapeEditor Win64 Development...
-  Total build time: 12.72 seconds (Local executor: 1.63 seconds)
+  Total build time: 19.29 seconds (Local executor: 2.13 seconds)
