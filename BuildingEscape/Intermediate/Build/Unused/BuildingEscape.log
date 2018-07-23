@@ -1,10 +1,8 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build.
+﻿  Cleaning BuildingEscapeEditor Binaries...
+UnrealBuildTool : error : Unable to clean target while hot-reloading. Close the editor and try again.
+  Using 'git status' to determine working set for adaptive non-unity build.
   Compiling game modules for hot reload
-  Performing 3 actions (4 in parallel)
-  OpenDoor.cpp
-  [2/3] Link UE4Editor-BuildingEscape-7617.dll
-  [3/3] Link UE4Editor-BuildingEscape-7617.lib
-     Creating library D:\2018_Class_Content\Unreal_And_C++\Section_03\UE4_Building-Escape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-7617.suppressed.lib and object D:\2018_Class_Content\Unreal_And_C++\Section_03\UE4_Building-Escape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-7617.suppressed.exp
-     Creating library D:\2018_Class_Content\Unreal_And_C++\Section_03\UE4_Building-Escape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-7617.lib and object D:\2018_Class_Content\Unreal_And_C++\Section_03\UE4_Building-Escape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-7617.exp
+  Target is up to date
   Deploying BuildingEscapeEditor Win64 Development...
-  Total build time: 3.45 seconds (Local executor: 1.63 seconds)
+  Total build time: 1.62 seconds (NoActionsToExecute executor: 0.00 seconds)
+D:\VS Community\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(49,5): error MSB3073: The command ""D:\Epic Games\Unreal Engine\UE_4.19\Engine\Build\BatchFiles\Rebuild.bat" BuildingEscapeEditor Win64 Development "D:\2018_Class_Content\Unreal_And_C++\Section_03\UE4_Building-Escape\BuildingEscape\BuildingEscape.uproject" -WaitMutex -FromMsBuild" exited with code -1.
