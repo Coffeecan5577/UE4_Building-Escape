@@ -253,8 +253,12 @@
     <NMakeOutput>..\..\Binaries\Win64\BuildingEscape-Win64-Shipping.exe</NMakeOutput>
   </PropertyGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Source\BuildingEscape\Grabber.cpp" />
+    <ClCompile Include="..\..\Source\BuildingEscape\GrabberComponent.cpp" />
     <ClCompile Include="..\..\Source\BuildingEscape\OpenDoor.cpp" />
     <ClCompile Include="..\..\Source\BuildingEscape\PositionReport.cpp" />
+    <ClInclude Include="..\..\Source\BuildingEscape\Grabber.h" />
+    <ClInclude Include="..\..\Source\BuildingEscape\GrabberComponent.h" />
     <ClInclude Include="..\..\Source\BuildingEscape\OpenDoor.h" />
     <ClInclude Include="..\..\Source\BuildingEscape\PositionReport.h" />
     <None Include="..\..\BuildingEscape.uproject" />
