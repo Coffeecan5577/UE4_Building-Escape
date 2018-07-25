@@ -39,6 +39,7 @@ void UGrabberComponent::BeginPlay()
 	{
 		/// Bind input axis
 		InputComponent->BindAction("Grab", IE_Pressed, this, &UGrabberComponent::Grab);
+		InputComponent->BindAction("Grab", IE_Released, this, &UGrabberComponent::Release);
 	}
 	else
 	{
@@ -48,8 +49,14 @@ void UGrabberComponent::BeginPlay()
 
 void UGrabberComponent::Grab()
 {
-
+	UE_LOG(LogTemp, Warning, TEXT("Grab Key Pressed."));
 }
+
+void UGrabberComponent::Release()
+{
+	UE_LOG(LogTemp, Warning, TEXT("Grab Key Released."));
+}
+
 
 
 // Called every frame
