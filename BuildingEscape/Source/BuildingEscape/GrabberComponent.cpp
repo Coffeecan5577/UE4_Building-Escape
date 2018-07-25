@@ -17,7 +17,6 @@ UGrabberComponent::UGrabberComponent()
 	// ...
 }
 
-
 // Called when the game starts
 void UGrabberComponent::BeginPlay()
 {
@@ -33,6 +32,23 @@ void UGrabberComponent::BeginPlay()
 	{
 		UE_LOG(LogTemp, Error, TEXT("Physics Handler component is missing from %s. "), *GetOwner()->GetName());
 	}
+
+	/// Look for attached PawnInputComponent (Only appears at runtime.)
+	InputComponent = GetOwner()->FindComponentByClass<UInputComponent>();
+	if (InputComponent)
+	{
+		/// Bind input axis
+		InputComponent->BindAction("Grab", IE_Pressed, this, &UGrabberComponent::Grab);
+	}
+	else
+	{
+		UE_LOG(LogTemp, Error, TEXT("%s is missing a pawn input component."), *GetOwner()->GetName());
+	}
+}
+
+void UGrabberComponent::Grab()
+{
+
 }
 
 
