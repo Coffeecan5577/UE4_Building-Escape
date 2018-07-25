@@ -26,6 +26,7 @@ public:
 
 
 private:
-	
+	// How far ahead
+	float Reach = 100.0f;
 	
 };

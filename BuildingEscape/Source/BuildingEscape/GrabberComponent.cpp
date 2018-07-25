@@ -3,6 +3,7 @@
 #include "GrabberComponent.h"
 #include "GameFramework/Actor.h"
 #include "Engine/World.h"
+#include "DrawDebugHelpers.h"
 
 #define OUT
 
@@ -36,9 +37,13 @@ void UGrabberComponent::TickComponent(float DeltaTime, ELevelTick TickType, FAct
 	GetWorld()->GetFirstPlayerController()->GetPlayerViewPoint(OUT PlayerViewPointLocation, OUT PlayerViewPointRotation);
 
 	// TODO Log out to test.
-	UE_LOG(LogTemp, Warning, TEXT("Player's Position: %s, Rotation: %s"), *PlayerViewPointLocation.ToString(), *PlayerViewPointRotation.ToString());
+	/*UE_LOG(LogTemp, Warning, TEXT("Player's Position: %s, Rotation: %s"), *PlayerViewPointLocation.ToString(), *PlayerViewPointRotation.ToString());*/
+
+	// Draw a red trace in the world to visualize.
+	FVector LineTraceEnd = PlayerViewPointLocation + (PlayerViewPointRotation.Vector() * Reach);
 
 	// Ray-cast out to reach distance.
+	DrawDebugLine(GetWorld(), PlayerViewPointLocation, LineTraceEnd, FColor(255, 0, 0), false, 0.f, 0.f, 10.f);
 
 	// See what we hit.
 
