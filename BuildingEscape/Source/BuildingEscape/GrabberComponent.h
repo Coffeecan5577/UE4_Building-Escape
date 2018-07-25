@@ -18,6 +18,7 @@ class BUILDINGESCAPE_API UGrabberComponent : public UActorComponent
 public:	
 	// Sets default values for this component's properties
 	UGrabberComponent();
+	void FindPhysicsHandleComponent();
 
 protected:
 	// Called when the game starts
@@ -41,4 +42,13 @@ private:
 
 	// Release key to drop what's grabbed.
 	void Release();
+
+	// Find attached Physics component
+	// void FindPhysicsHandleComponent();
+
+	// Setup (assumed) attached input component
+	void SetupInputComponent();
+
+	// Return hit for first physics body in reach
+	FHitResult GetFirstPhysicsBodyInReach() const;
 };
